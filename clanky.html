@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simple static web</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<link rel="stylesheet" type="text/css" href="clanky.css">
+	</head>
+	<body>
+		<div class="navbar">
+			<ul id="ul-navbar">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="fotky.html">Informace</a></li>
+				<li><a href="clanky.html">Články</a></li>
+				<li><a href="tabulky.html">Moje známky</a></li>
+			</ul>
+		</div>
+		<div class="my_artical">
+			<h1>Matfyz v pohybu</h1>
+			<section>
+				<h2><mark>Způsoby jak zvýraznit texty</mark></h2>
+				<p><b>Lorem Ipsum</b> <i>is simply dummy text of the printing and typesetting industry</i>. <mark>Lorem Ipsum</mark> has been the industry's standard dummy text ever <ins>since the 1500s</ins>, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker <del>including versions of Lorem Ipsum.</del></p>
+			</section>
+			<article>
+				<h2><i><b>Code format jako <mark>Stack Overflow</mark> xD</b></i></h2>
+			
+				<div class="code_content">
+					
+					 <pre>
+	<code>
+   l = (int)(input())
+   k = (int)(input())
+   width = <span class="orange_code">2*l - 1</span>
+   <span class="blue_code">for</span> i <span class="blue_code">in</span> range (l):
+       <span class="blue_code">for</span> j <span class="blue_code">in</span> range(width):
+            <span class="blue_code">if</span>(j < l-i-1 or j >= l+i):
+                <span class="blue_code">print</span>(".",end ="")
+            <span class="blue_code">else:</span>
+                <span class="blue_code">print</span>("*", end="")
+        <span class="blue_code">print()</span>
+    <span class="blue_code">for</span> i  <span class="blue_code">in</span> range (k):
+        <span class="blue_code">for</span> j  <span class="blue_code">in</span> range(width):
+            <span class="blue_code">if</span>(j == (int)(width//2)):
+                <span class="blue_code">print</span>("*",end ="")
+            <span class="blue_code">else:</span>
+                <span class="blue_code">print</span>(".", end="")
+        <span class="blue_code">print()</span>
+        		</code>
+					</pre>
+			
+				</div>
+				
+			<section>
+				<h2>Jiné vyhledávače</h2>
+				<div class="other_explore">
+				<ol>
+				  <li>FireFox</li>
+				  <li>Google Chrome
+				    <ul>
+				      <li>Cent Browser</li>
+				      <li>Cốc Cốc</li>
+				    </ul>
+				  </li>
+				  <li>Opera</li>
+				</ol>
+				</div>
+				</section>
+			</article>
+		</div>
+		<hr>
+		<footer>
+			<p>&copy; Duong Xuan Anh 2020<p>
+				<p>This website is powered by me</p>
+			</footer>
+		</body>
+	</html>

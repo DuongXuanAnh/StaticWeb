@@ -1,0 +1,56 @@
+#tabulka_content{
+	width: 50%;
+    margin: 0 auto;
+    font-size: 1em;
+    margin-top: 2em;
+    height: 100vh;
+}
+#nadpis_table{
+	margin: 0 auto;
+    text-align: center;
+    margin: 2em 0 2em 0;
+}
+.tablehodnoceni{
+	width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.tablehodnoceni, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0.5em;
+}
+
+h2 {
+  margin-top: 1em;
+}
+#odkazy{
+	padding: 2em;
+}
+
+#odkazy li{
+	font-size: 1.5em;
+}
+
+#odkazy li a{
+	text-decoration: none;
+	color: #2980b9;
+}
+
+#odkazy li a:hover{
+	text-decoration: underline;
+}
+
+.text{
+  margin-top: 1em;
+}
+
+hr{
+  width: 40%;
+}
+
+footer{
+  margin-top: 2em; 
+}
